@@ -154,6 +154,17 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <label>Pharma Product</label>
+    <nameField>
+        <label>Pharma Product Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Pharma Products</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
     <fields>
         <fullName>Price__c</fullName>
         <description>Enter the product price</description>
@@ -371,15 +382,4 @@
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
     </fields>
-    <label>Pharma Product</label>
-    <nameField>
-        <label>Pharma Product Name</label>
-        <trackFeedHistory>true</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-    </nameField>
-    <pluralLabel>Pharma Products</pluralLabel>
-    <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
